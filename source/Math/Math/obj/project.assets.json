@@ -30,10 +30,12 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -47,6 +49,7 @@
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
+        ".nupkg.metadata",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -182,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anansan/JHILL/github/Math/Math/Math.csproj",
+      "projectUniqueName": "/Users/anansan/JHILL/github/TribalScale/sonarqubeDemo/source/Math/Math/Math.csproj",
       "projectName": "Math",
-      "projectPath": "/Users/anansan/JHILL/github/Math/Math/Math.csproj",
+      "projectPath": "/Users/anansan/JHILL/github/TribalScale/sonarqubeDemo/source/Math/Math/Math.csproj",
       "packagesPath": "/Users/anansan/.nuget/packages/",
-      "outputPath": "/Users/anansan/JHILL/github/Math/Math/obj/",
+      "outputPath": "/Users/anansan/JHILL/github/TribalScale/sonarqubeDemo/source/Math/Math/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

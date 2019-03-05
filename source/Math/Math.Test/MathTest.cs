@@ -17,6 +17,7 @@ namespace Math.Test {
 
         [Theory]
         [InlineData (5, 2, 3)]
+        [InlineData (7, 8, -1)]
         public void SubstractTest (int firstValue, int secondValue, int expected) {
             SimpleMath math = new SimpleMath ();
             int actual = math.substract (firstValue, secondValue);
@@ -31,6 +32,12 @@ namespace Math.Test {
             decimal actual = math.divide (firstValue, secondValue);
             Assert.Equal (expected, actual);
 
+        }
+
+        [Fact]
+        public void DivideTest_ThrowsException () {
+            SimpleMath math = new SimpleMath ();
+            Assert.Throws<DivideByZeroException> (() => math.divide (10, 0));
         }
     }
 }
