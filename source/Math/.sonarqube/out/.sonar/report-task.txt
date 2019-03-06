@@ -1,0 +1,6 @@
+projectKey=Math
+serverUrl=http://localhost:9001
+serverVersion=7.6.0.21501
+dashboardUrl=http://localhost:9001/dashboard?id=Math
+ceTaskId=AWlU0WLcybbJMTmjxRLR
+ceTaskUrl=http://localhost:9001/api/ce/task?id=AWlU0WLcybbJMTmjxRLR

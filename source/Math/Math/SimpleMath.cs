@@ -6,23 +6,22 @@ namespace Math.Api {
             return a + b;
         }
 
-        public int substract(int a , int b)
-        {
-            return a-b;
+        public int substract (int a, int b) {
+            return a - b;
         }
 
-        public decimal divide(int a ,int b)
-        {
-            if(b==0)
-            {
-                throw new DivideByZeroException();
-            }
-            else
-            {
+        public decimal divide (int a, int b) {
+            if (b == 0) {
+                throw new DivideByZeroException ();
+            } else {
 
-                return a/b;
+                return a / b;
             }
         }
+
+        // public decimal multiply (int a, int b) {
+        //     return a * b;
+        // }
 
     }
 
